@@ -22,5 +22,8 @@ Request format:
 To query metrics:
 > $ curl http://localhost:<PORT>/metrics
 
+To run go tests:
+> go test -v ./controllers
+
 To run hurl tests (requires hurl -> https://hurl.dev):
 > $ hurl --variable port=<PORT> hurl_tests/all.hurl
