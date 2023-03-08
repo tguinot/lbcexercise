@@ -9,7 +9,8 @@ To build:
 To run:
 > $ ./main -p <PORT\>
 
-Endpoint URL (POST Json): http://localhost:<PORT\>/fizzbuzz
+Endpoint URL (POST Json): `http://localhost:<PORT>/fizzbuzz`
+
 Request format:
 
 ```
